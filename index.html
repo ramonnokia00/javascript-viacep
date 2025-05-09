@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViaCep</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class=" w-screen h-screen bg-gradient-to-bl from-yellow-300 to-yellow-500 flex items-center justify-center">
+    <div class=" w-1/4 bg-white p-4 rounded">
+        <div class="flex gap-3">   
+            <input type="text" id="cep" placeholder="000000-000" class="border h-[40px] rounded outline-yellow-800 border-cyan-500 w-full text-center">
+            <button id="pesquisar" class="bg-cyan-400 hover:bg-cyan-800 duration-300 rounded px-3 leading-[40px] text-white" onclick="buscarCep()">Pesquisar</button>
+        </div>
+
+        <input type="text" id="endereco" placeholder="AV/Rua..." class="border border-cyan-300 rounded mt-2 w-full outline-yellow-800 text-center">
+        <input type="text" id="bairro" placeholder="Digite seu bairro" class="border border-cyan-300 rounded mt-2 w-full outline-yellow-800 text-center">
+        <input type="text" id="cidade" placeholder="Digite seu Cidade" class="border border-cyan-300 rounded mt-2 w-full outline-yellow-800 text-center">
+        <input type="text" id="estado" placeholder="Digite seu Estado" class="border border-cyan-300 rounded mt-2 w-full outline-yellow-800 text-center">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
